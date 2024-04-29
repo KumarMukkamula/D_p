@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    /* font-family: 'popins',sans-serif; */
+}
+
+.back {
+    position: relative;
+}
+
+.black_b {
+    position: absolute;
+    top: 8%;
+    left: -2%;
+}
+
+.logo {
+    position: absolute;
+    top: 11%;
+}
+
+.short1 {
+    position: absolute;
+    top: 27%;
+    right: 50%;
+}
+
+.short2 {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.short3 {
+    position: absolute;
+    top: 50%;
+    right: 9%;
+}
+
+.short4 {
+    position: absolute;
+    top: 70%;
+    right: 23%;
+}
+
+.short5 {
+    position: absolute;
+    top: 8%;
+    left: 55%;
+
+}
+
+.short6 {
+    position: absolute;
+    bottom: 8%;
+    left: 37%;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 30px;
+    color: black;
+}
+
+
+
+nav ul {
+    display: flex;
+    padding: 20px;
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+nav {
+    background-color: black;
+}
+nav a{
+    margin: 20px;
+    padding: 30px;
+    color: #d5912a;
+}
+nav a:hover{
+    cursor: pointer;
+    color: white;
+}
+.content {
+    position: absolute;
+    top: 40%;
+    left: 18%;
+}
+h1{
+    font-size: 70px;
+}
+h1:hover{
+    cursor: pointer;
+    color: #d5912a;
+}
+h2{
+    font-size: 100px;
+}
+h2:hover{
+    cursor: pointer;
+    color: #d5912a;
+}
+.hint{
+    position: absolute;
+    bottom: 10%;
+    left: 2%;
+}
+.l_para{
+    padding-top: 20px;
+}
+.contact{
+    color: #d5912a;
+    background-color: black;
+    border: 2px solid #d5912a;
+    padding: 5px;
+}
+.contact:hover{
+    color: white;
+    background-color: #d5912a;
+    border: 2px solid white;
+}
+
+/*                                                   HOME                                                   */
+.container{
+    margin: 0 auto;
+    width: 1199px;
+    padding: 30px;
+}
+body{
+    background-color: black;
+}
+h3{
+    color: #d5912a;
+    font-size: 70px;
+    padding-bottom: 50px;
+}
+.h_para1{
+    color: #d5912a;
+    padding-bottom: 20px;
+}
+label{
+    color: #d5912a;
+}
+form{
+    padding: 30px 10px;
+}
+input[type=text]{
+    background-color: black;
+    color: white;
+    padding: 20px 150px;
+}
+input[type=text]:hover{
+    color: #d5912a;
+    background-color: black;
+    border: 2px solid #d5912a;
+}
+input[type=integer]{
+    background-color: black;
+    color: white;
+    padding: 20px 150px;
+}
+input[type=integer]:hover{
+    color: #d5912a;
+    background-color: black;
+    border: 2px solid #d5912a;
+}
+.venue{
+    padding: 20px 0;
+    color: #d5912a;
+}
+.h_be{
+    padding: 20px 0;
+    color: #d5912a;
+}
+/*                HOME PAGE FOOTER               */
+.logo_footer{
+    background-color: black;
+    border-radius: 50px 50px 10px 10px;
+    margin: 20px 0 50px 0;
+}
+p, f1_para{
+    margin: 10px 0 50px 0;
+}
+p, f2_para{
+    margin: 20px 0;
+}
+footer{
+    background-color: #d5912a;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+h5{
+    color: white;
+    font-size: 20px;
+    padding-top: 100px;
+}
+span{
+    color: white;
+}
+.social_icons3{
+    margin: 20px;
+}
+.fa-facebook-square{
+     padding: 5px;
+     font-size: 30px;
+     color: blue;
+     background-color: white;
+     border-radius: 10px;
+
+}
+.fa-youtube-play{
+    padding: 5px;
+    font-size: 30px;
+    color: red;
+    border-radius: 10px;
+    background-color: white;
+}
+.fa-instagram{
+    padding: 5px;
+     border-radius: 10px;
+     font-size: 30px;
+    background-color: white;
+    color: pink;
+}
+.fa-twitter-square{
+    padding: 5px;
+     border-radius: 10px;
+     font-size: 30px;
+    background-color: skyblue;
+    color: white;
+}
+/*                HOME PAGE FOOTER END                                                              */
+
+.para_1{
+    color: #d5912a;
+}
+.part_1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 130px;
+}
+.para_2{
+    color: #d5912a;
+}
+.part_2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 130px;
+}
+.icon_s{
+    padding: 0;
+    margin: 0;
+}
+
+/*                                                HOME END                                             */

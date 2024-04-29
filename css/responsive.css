@@ -1,0 +1,79 @@
+/* @media screen and (max-width:1199px){
+
+    .container {
+        width: 970px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:970px){
+    .container{
+        width: 767px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:767px){
+        .container{
+            width: 99%;
+        }
+        .back{
+            width: 500px;
+            position: relative;
+        }
+        .black_b{
+            width: 70px;
+            position: absolute;
+            top: 10%;
+            left:-2%;
+        }
+        .logo{
+            position: absolute;
+            top: 11%;
+            width: 100px;
+        }
+} */
+
+/* Base styles are already mobile-first. Now add responsive adjustments */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .content, .navbar nav ul, h1, h2, p {
+        /* Increase font sizes for readability on larger devices */
+        font-size: 1.25rem;
+    }
+
+    .container {
+        width: auto; /* Use full screen width with padding */
+        padding: 15px;
+    }
+
+    .short1, .short2, .short3, .short4, .short5, .short6 {
+        /* Adjust positioning or sizes of your images if necessary */
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .content, .navbar nav ul, h1, h2, p {
+        font-size: 1.5rem; /* Further increase font sizes */
+    }
+
+    .container {
+        max-width: 960px; /* Set a max-width for the container */
+        margin: 0 auto; /* Center the container */
+    }
+
+    /* Additional adjustments for large screens */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .content, .navbar nav ul, h1, h2, p {
+        font-size: 1.75rem; /* Adjust font sizes for very large screens */
+    }
+
+    .container {
+        max-width: 1140px; /* Adjust the container max-width for extra large screens */
+    }
+
+    /* You can add more specific adjustments here */
+}
